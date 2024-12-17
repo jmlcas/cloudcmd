@@ -5,7 +5,7 @@ services:
     container_name: cloudcmd
     restart: unless-stopped
     ports:
-      - "8000:8000"
+      - "8100:8000"
     volumes:
       - ~:/root
       - /:/mnt/fs
