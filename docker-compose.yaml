@@ -9,5 +9,8 @@ services:
     volumes:
       - ~:/root
       - /:/mnt/fs
-
+    environment:
+      - CLOUDCMD_AUTH=true
+      - CLOUDCMD_USERNAME=User
+      - CLOUDCMD_PASSWORD=p4ssw0rd
       
